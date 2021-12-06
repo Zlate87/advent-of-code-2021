@@ -4,7 +4,6 @@ import readInput
 
 fun main() {
 
-
     fun getInstructions(input: List<String>): List<Instruction> {
         return input.map {
             it.split(" ")
